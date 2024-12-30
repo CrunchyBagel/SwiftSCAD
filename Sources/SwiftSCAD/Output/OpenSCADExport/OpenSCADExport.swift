@@ -24,7 +24,7 @@ struct OpenSCADExport {
         process.arguments = [
             "-o", "-", // Write to stdout
             "--export-format", formatString,
-            "--enable", "all", // Enable all "experimental" features, such as manifold
+//            "--enable", "all", // Enable all "experimental" features, such as manifold
             "-" // Read from stdin
         ]
         process.standardInput = inputPipe
