@@ -29,7 +29,7 @@ public struct CodeFragment: Sendable {
 
     internal static let empty = CodeFragment(.empty)
 
-    internal var scadCode: String {
+    public var scadCode: String {
         switch fragment {
         case .empty:
             return ";"
