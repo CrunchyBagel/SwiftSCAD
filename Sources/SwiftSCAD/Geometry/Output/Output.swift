@@ -1,7 +1,7 @@
 import Foundation
 
 public struct Output<V: Vector> {
-    internal let codeFragment: CodeFragment
+    public let codeFragment: CodeFragment
     internal let boundary: Boundary<V>
     internal let elements: ResultElementsByType
 
